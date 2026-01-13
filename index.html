@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Marca Simple | Editorial Minimalista</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b8cee",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#000000",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-white selection:bg-primary selection:text-white">
+<!-- 1. Hero Section -->
+<section class="relative min-h-screen flex flex-col items-center justify-center px-6 lg:px-40 py-20">
+<div class="max-w-[960px] w-full flex flex-col items-center text-center gap-8">
+<div class="animate-fade-in flex flex-col gap-6">
+<h1 class="text-white text-6xl md:text-8xl font-black leading-tight tracking-[-0.05em] uppercase">
+                    Marca Simple
+                </h1>
+<h2 class="text-white/60 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto">
+                    Diseño para el emprendedor moderno. Un enfoque minimalista para construir marcas con propósito, claridad y elegancia editorial.
+                </h2>
+</div>
+<div class="mt-8">
+<button class="bg-primary hover:bg-primary/90 transition-colors text-white px-10 py-4 rounded-lg text-base font-bold tracking-wider uppercase">
+                    Comenzar ahora
+                </button>
+</div>
+</div>
+<!-- Decorative subtle element -->
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 opacity-30 animate-bounce">
+<span class="material-symbols-outlined text-4xl">keyboard_double_arrow_down</span>
+</div>
+</section>
+<!-- 2. Explanatory Section -->
+<section class="px-6 lg:px-40 py-24 bg-background-dark">
+<div class="max-w-[960px] mx-auto">
+<div class="flex flex-col gap-8">
+<h2 class="text-white tracking-tighter text-4xl md:text-5xl font-bold leading-tight max-w-[720px]">
+                    ¿Qué es Marca Simple?
+                </h2>
+<div class="h-1 w-20 bg-primary mb-4"></div>
+<p class="text-white/70 text-xl font-light leading-relaxed max-w-[800px]">
+                    Creemos que la simplicidad es la herramienta más poderosa para un negocio. Ayudamos a emprendedores y pequeñas empresas a eliminar el ruido y enfocarse en lo esencial para conectar con su audiencia de forma honesta, sofisticada y memorable.
+                </p>
+</div>
+</div>
+</section>
+<!-- 3. Features Section (Typography-led, no borders) -->
+<section class="px-6 lg:px-40 py-24 bg-background-dark border-t border-white/5">
+<div class="max-w-[960px] mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+<div class="flex flex-col gap-6 group">
+<span class="material-symbols-outlined text-primary text-5xl font-light">auto_awesome</span>
+<div class="flex flex-col gap-4">
+<h3 class="text-white text-2xl font-bold tracking-tight">Claridad</h3>
+<p class="text-white/50 text-base font-normal leading-relaxed">
+                            Eliminamos lo innecesario para que tu mensaje brille. Un diseño limpio no distrae, comunica.
+                        </p>
+</div>
+</div>
+<div class="flex flex-col gap-6 group">
+<span class="material-symbols-outlined text-primary text-5xl font-light">strategy</span>
+<div class="flex flex-col gap-4">
+<h3 class="text-white text-2xl font-bold tracking-tight">Estrategia</h3>
+<p class="text-white/50 text-base font-normal leading-relaxed">
+                            Construimos bases sólidas para un crecimiento sostenible. No diseñamos logos, creamos sistemas.
+                        </p>
+</div>
+</div>
+<div class="flex flex-col gap-6 group">
+<span class="material-symbols-outlined text-primary text-5xl font-light">draw</span>
+<div class="flex flex-col gap-4">
+<h3 class="text-white text-2xl font-bold tracking-tight">Impacto</h3>
+<p class="text-white/50 text-base font-normal leading-relaxed">
+                            Diseño que trasciende tendencias. Buscamos la estética que perdura y genera conexiones reales.
+                        </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Products Section -->
+<section class="px-6 lg:px-40 py-24 bg-background-dark">
+<div class="max-w-[960px] mx-auto">
+<h2 class="text-white text-3xl font-bold leading-tight tracking-tight mb-12">Recursos Editoriales</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Ebook 1 -->
+<div class="flex flex-col gap-6 group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]" data-alt="Minimalist book cover design for visual identity guide" style='background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAjpu0QbrLCSk52GD8weZWaJCwn07vzEn3QT3kS_l3mrJSypR1tpl1srrVuCA346HWR3AaxbgZMAx6vdpa9ETR7Ccmw4x5KxTrVrxy4XolcoTxOp-gSoDjgN7TimEKTvR3W-Pst_YjvjYeaRZKva-PK0yP-sc1hUnf_-X6uDsxiT9loMwPXAHgAcz6OhYUlmlPk6qOEBWm1jdD1uKm0yRVEOV2BVpLg7KiTj1jO6pQXSILhMoy7-An53MGcU0GXeM5JmzvHUlUSblU1");'>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-white text-xl font-bold">Guía: Identidad Visual</h4>
+<p class="text-white/50 text-sm mt-1">Aprende a diseñar tu propia marca con principios editoriales.</p>
+</div>
+<span class="text-primary font-bold text-lg">$29.00</span>
+</div>
+<button class="w-full border border-white/20 hover:border-primary hover:bg-primary transition-all text-white py-3 rounded-lg text-sm font-bold uppercase tracking-widest">
+                            Comprar ahora
+                        </button>
+</div>
+</div>
+<!-- Ebook 2 -->
+<div class="flex flex-col gap-6 group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]" data-alt="Modern magazine style ebook cover for content strategy" style='background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB9Xzypb3ipZiRsSeyX9ckBDDEJceVrBQ1J2TrUJn2AMSsYz7BOZtIVag-2NlcMrPqmNc7XsOLbVBW0feDD13PTpzxWh3xQlIpb5YAGWQ48uwE_y8mvhJ1qUM7P6T5gxW4t87PqUnjjf8AUxpbPcy4ZGcc0XTAAuJQqE2KHR-JLawG27hwK8mD2Hn_O8u3ir97kOAym9DYCGvTXaCS6aINnH-F6jOgGT9CMviuh9oVgVFhxJyKooLRVsW70C5viOh6X3C-EwNJapoLw");'>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-white text-xl font-bold">Guía: Estrategia de Contenidos</h4>
+<p class="text-white/50 text-sm mt-1">Crea un sistema de comunicación coherente y minimalista.</p>
+</div>
+<span class="text-primary font-bold text-lg">$25.00</span>
+</div>
+<button class="w-full border border-white/20 hover:border-primary hover:bg-primary transition-all text-white py-3 rounded-lg text-sm font-bold uppercase tracking-widest">
+                            Comprar ahora
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Iconic Phrase Section -->
+<section class="px-6 lg:px-40 py-40 bg-background-dark border-y border-white/5">
+<div class="max-w-[960px] mx-auto text-center">
+<h2 class="text-white tracking-tighter text-4xl md:text-6xl font-black leading-[1.1] italic">
+                "La simplicidad es la máxima sofisticación."
+            </h2>
+<p class="text-primary mt-8 font-bold tracking-[0.3em] uppercase text-sm">— Leonardo da Vinci</p>
+</div>
+</section>
+<!-- 6. Footer -->
+<footer class="px-6 lg:px-40 py-20 bg-background-dark">
+<div class="max-w-[960px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8 border-t border-white/5 pt-12">
+<div class="flex flex-col items-center md:items-start gap-2">
+<span class="text-white text-2xl font-black uppercase tracking-tighter">Marca Simple</span>
+<p class="text-white/40 text-xs tracking-widest uppercase">Menos es más. Diseño con propósito.</p>
+</div>
+<div class="flex flex-col items-center md:items-end gap-2">
+<div class="flex gap-6 mb-2">
+<a class="text-white/60 hover:text-primary transition-colors text-xs uppercase tracking-widest font-bold" href="#">Instagram</a>
+<a class="text-white/60 hover:text-primary transition-colors text-xs uppercase tracking-widest font-bold" href="#">LinkedIn</a>
+</div>
+<p class="text-white/30 text-[10px] tracking-widest uppercase">© 2024 Marca Simple. Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+</body></html>
